@@ -24,10 +24,8 @@ module.exports = class paymentConfig
     }
     getDefaultConfig()
     {
-      return 
-	  {
-		context:"",  
-		attach:{  },
+      return {
+		context:"default",  
 		 
       }
     }

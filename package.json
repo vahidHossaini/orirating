@@ -1,6 +1,6 @@
 {
   "name": "orirating",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "origamicore rating",
   "main": "index.js",
   "scripts": {

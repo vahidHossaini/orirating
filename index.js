@@ -19,7 +19,11 @@ module.exports = class ratingIndex
 	constructor(config,dist)
 	{
 		this.config=config.statics;
-		this.context=this.config.context; 
+		this.context=this.config.context;     
+        this.bootstrap=require('./bootstrap.js')
+        this.enums=require('./struct.js') 
+        this.tempConfig=require('./config.js')
+
 		global.rating=new RatingRouting(dist);
 	}
 	async sampleFunction(msg,func,self)
